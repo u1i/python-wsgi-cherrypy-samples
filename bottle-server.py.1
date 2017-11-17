@@ -1,0 +1,14 @@
+from wsgi import application
+from bottletest import app
+#from cherrypy.wsgiserver import CherryPyWSGIServer
+#import wsgiserver
+import cherrypy
+
+
+server = CherryPyWSGIServer(
+    ('0.0.0.0', 80),
+    app,
+    server_name='My_App',
+    numthreads=30)
+
+server.start()
