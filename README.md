@@ -16,6 +16,14 @@ Run server: python bottle-server.py
 
 Request: curl http://localhost:8080/stuff
 
+## 3 - Run app as daemon
+
+Files: app.py srv.ini
+
+Run daemon: cherryd -e production -i app -c srv.ini
+
+Request: curl http://localhost:8080/stuff
+
 ### Material:
 
 https://stackoverflow.com/questions/28307981/how-to-launch-a-bottle-application-over-a-cherrypy-standalone-web-server
