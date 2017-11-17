@@ -21,3 +21,5 @@ Request: curl http://localhost:8080/stuff
 https://stackoverflow.com/questions/28307981/how-to-launch-a-bottle-application-over-a-cherrypy-standalone-web-server
 
 https://www.digitalocean.com/community/tutorials/how-to-deploy-python-wsgi-applications-using-a-cherrypy-web-server-behind-nginx
+
+https://stackoverflow.com/questions/24688032/python-web-server-cherrypy-scaling-concurrent-requests-on-aws
