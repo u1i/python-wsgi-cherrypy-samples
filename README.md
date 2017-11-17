@@ -16,7 +16,7 @@ Run server: python bottle-server.py
 
 Request: curl http://localhost:8080/stuff
 
-### material:
+### Material:
 
 https://stackoverflow.com/questions/28307981/how-to-launch-a-bottle-application-over-a-cherrypy-standalone-web-server
 
